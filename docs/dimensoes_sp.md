@@ -1,13 +1,31 @@
+<p align="center">
+    <a href="https://basedosdados.org">
+        <img src="https://avatars.githubusercontent.com/u/137204683" width="240" alt="São Paulo">
+    </a>
+</p>
+
+<p align="center">
+    <em>Secretaria Executiva de Planejamento e Entregas Prioritárias - Prefeitura de São Paulo</em>
+</p>
+
 # Documentação dos indicadores
 Documentação de indicadores - [`Dimensões SP`][politicas-sociais-notebook]
 
-Mapeamento dos indicadores ➡️ [🗺️](https://docs.google.com/spreadsheets/d/1Vz0dZ6n1PKcYgvQMSBRcYdbSVWHxgbGL/edit?pli=1&gid=250491946#gid=250491946)
+Mapeamento dos indicadores ➡️ [🗺️][mapeamento]
+
+Apresentação Resultados Desenvolvimento Social(Previa)  ➡️ [📺][apresentacao_desenvolvimento_social]
+
+Desenvolvimento Econômico Integrado(Previa) ➡️ [📺][apresentacao_desenvolvimento_economico_integrado]
 
 [politicas-sociais-notebook]: https://colab.research.google.com/drive/14jIloiip7s8xnTffYS55Q0lF8Etwz5W5#scrollTo=Ry7c-tpeunMB
 [mapeamento]: https://docs.google.com/spreadsheets/d/1Vz0dZ6n1PKcYgvQMSBRcYdbSVWHxgbGL/edit?pli=1&gid=250491946#gid=250491946
+[apresentacao_desenvolvimento_social]: https://docs.google.com/presentation/d/1UUuJW-jGnghgBpwnqBGado8oh7V7XAHf/edit?usp=drive_link&ouid=115854210799010302684&rtpof=true&sd=true
+[apresentacao_desenvolvimento_economico_integrado]: https://docs.google.com/presentation/d/1pJrM74A_eZIAaYyZWEjDUMdDjhqfgbgO/edit?usp=sharing&ouid=115854210799010302684&rtpof=true&sd=true
+
 
 # Index
-- [Dimensões](#dimensões): 
+- [Dimensões](#dimensões):
+    - [Nota de Alteração: Substituição de Caracteres Especiais](#nota-de-alteração-substituição-de-caracteres-especiais) 
     - [Desenvolvimento Social](#desenvolvimento-social)
     - [Desenvolvimento Econômico Integrado](#desenvolvimento-econômico-integrado)
     - [Desenvolvimento Urbano Sustentável](#desenvolvimento-econômico-integrado-sustentável)
@@ -19,6 +37,14 @@ A categoria "Dimensões" foi criada com o intuito de proporcionar uma melhor org
 Cada um desses temas aborda áreas essenciais para o desenvolvimento e o bem-estar da sociedade. O tema Desenvolvimento Social reúne indicadores relacionados às ações e estratégias voltadas para a melhoria da qualidade de vida das populações, com foco em questões como saúde, educação, assistência social e segurança. Já o Desenvolvimento Econômico Integrado concentra-se em aspectos ligados ao crescimento das cidades, infraestrutura, mobilidade urbana, e planejamento territorial, buscando otimizar os espaços urbanos para atender as necessidades de uma população crescente. Por fim, o tema Desenvolvimento Urbano Sustentável aborda a adaptação das cidades e comunidades aos impactos das mudanças climáticas, bem como a promoção de práticas sustentáveis para garantir a preservação do meio ambiente e o uso responsável dos recursos naturais.
 
 Com essa organização, os indicadores se tornam mais acessíveis e facilitam a análise das diferentes dimensões que impactam o desenvolvimento social, econômico e ambiental, promovendo uma visão integrada e mais eficaz para as tomadas de decisão.
+
+## Nota de Alteração: Substituição de Caracteres Especiais
+
+As colunas `'Nome Indicador Final'` e `'Nome Original'` tiveram seus caracteres `|` substituídos por `/`.
+
+Esta alteração foi necessária porque o caractere `|` tem um significado especial no markdown e poderia causar problemas ao passar os nomes das colunas para a formatação markdown. A substituição por `/` mantém a legibilidade dos nomes enquanto evita conflitos com a sintaxe markdown.
+
+Esta modificação não afeta a funcionalidade dos dados, apenas a representação dos nomes das colunas quando utilizados em contextos markdown.
 
 ## Desenvolvimento Social
 | Nome Original                                                                                                                                                                                                                     | Dimensão                   | Nome Indicador Final                                                                                                    | Link Celula                                                                                                                   | Link Notebook                                                                                             |
